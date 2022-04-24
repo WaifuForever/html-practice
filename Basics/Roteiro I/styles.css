@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.box {
+    margin: 10% 40%;
+    width: 25vw;
+    height: 5vh; 
+    min-height: 30px;   
+    padding: 8px 4px;
+   
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+ 
+   
+    background-color: #3e374d;
+
+}
+
+.box input {    
+    min-height: 20px;
+    background-color: #ffffff;
+    
+}
+
+.box input[type^="text"] {    
+    height: 4vh;   
+    min-width: 20px;
+    margin-right: 2px;
+    font-family: 'Orbitron' sans-serif;   
+    align-self: center;
+   
+    
+}
+
+.box input[type^="button"]{
+    height: 95%; 
+    min-height: 20px;
+}
+
+
+.box input[type^="button"]:hover {    
+    height: 100%; 
+    background-color: #c9c6c6;
+    min-height: 20px;
+}
